@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #f26100, white, #006130);
+    color: transparent;
+}
+
+body {
+    margin: 70px auto auto 70px;
+    min-height: 80vh;
+    width: 80%;
+    background-color: #384152;
+    border-radius: 15px;
+    color: #949daa;
+}
+
+h1 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    color: white;
+}
+
+h2 {
+    position: relative;
+    margin: 30px auto 15px auto;
+    padding: 20px;
+}
+
+.first {
+    width: 60%;
+    margin: 0px auto auto 20px;
+    padding: 15px;
+    background: #202938;
+    border: none;
+    border-radius: 12px;
+    color: #949daa;
+    font-size: 16px;
+    position: relative;
+    outline: none;
+}
+
+.first:focus {
+    background-color: white;
+    color: black;
+}
+
+.second {
+    margin-left: 31px;
+    padding: 7px;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    background: linear-gradient(to left, #d22069, #c2268b, #b52aa7, #9b31d3, #a030d0, #9037f8);
+    -webkit-background-clip:text;
+    color: transparent;
+    cursor: pointer;
+}
+
+.second:hover {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    outline: white 2px solid;
+}
+
+h3 {
+    margin: 32px auto auto 20px;
+    color: white;
+    font-size: 23px;
+    text-decoration: underline 1px white;
+    letter-spacing: 2px;
+}
+
+li {
+    padding: 15px;
+    margin: 23px auto 23px auto;
+    background: #111828;
+    border-radius: 20px;
+    color: white;
+}
+
+li:hover {
+    background-color: #202938;
+    color: #949daa;
+}
+
+ul {
+    width: 120vh;
+    list-style-type: none;
+    margin: 22px auto auto 35px;
+}
+
+.delete {
+    padding: 5px;
+    color: red;
+    background: transparent;
+    border: none;
+    position: absolute;
+    left: 140vh;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.edit {
+    padding: 5px;
+    border: none;
+    background: linear-gradient(to left, #d22069, #c2268b, #b52aa7, #9b31d3, #a030d0, #9037f8);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    left: 155vh;
+}
+
+.edit:hover,
+.delete:hover {
+    outline: 2px solid white;
+    border-radius: 10px;
+    color: white;
+}

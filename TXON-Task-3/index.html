@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>To-Do List App</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div>
+                <h1>To-Do List App</h1>
+            </div>
+        </div>
+    </header>
+
+    <div>
+        <h2>Add Task Here :-</h2>
+
+        <form id="addForm">
+            <div>
+                <div>
+
+                    <input class="first" type="text" onkeyup="toggleButton(this, 'submit')" id="item" placeholder="Add Me to Your Life !!!">
+
+                    <input class="second" type="submit" id="submit" value="Create" disabled>
+
+                </div>
+
+            </div>
+        </form>
+
+        <h3>Try Try But Don't Cry ..</h3>
+
+        <form>
+            <ul id="items"></ul>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
